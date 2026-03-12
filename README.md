@@ -1,42 +1,41 @@
-# DevBlog – MERN Blog Platform
+# InkFlow – MERN Blog Platform
 
 A full-stack blogging platform built using the **MERN stack (MongoDB, Express.js, React, Node.js)**.  
 The application allows users to create, edit, search, and manage blog posts with secure authentication and an admin dashboard.
 
-Live Demo: https://blogify-mern-app.onrender.com/
 
 ---
 
 ## Features
 
 • User authentication with email/password and Google OAuth  
-• Create, edit, and delete blog posts  
+• Create, edit, update, and delete blog posts  
 • Admin dashboard for managing users, posts, and comments  
-• Search and filter blog posts  
-• Responsive UI built with React  
-• Secure backend APIs with JWT authentication  
+• Search and filter functionality for blog posts  
+• Responsive UI built with React and Tailwind CSS  
+• Secure backend APIs using JWT authentication  
 
 ---
 
 ## Tech Stack
 
-Frontend  
-• React  
-• Redux Toolkit  
-• Tailwind CSS  
-• React Router  
+**Frontend**
+- React
+- Redux Toolkit
+- Tailwind CSS
+- React Router
 
-Backend  
-• Node.js  
-• Express.js  
+**Backend**
+- Node.js
+- Express.js
 
-Database  
-• MongoDB  
-• Mongoose  
+**Database**
+- MongoDB
+- Mongoose
 
-Authentication  
-• JWT  
-• Google OAuth  
+**Authentication**
+- JWT
+- Google OAuth
 
 ---
 
