@@ -41,29 +41,31 @@ The application allows users to create, edit, search, and manage blog posts with
 
 ## Project Structure
 
-inkflow-mern/
+```
+inkflow-mern
 │
-├── api/ # Backend (Node.js + Express)
-│ ├── controllers/ # Business logic for routes
-│ ├── models/ # MongoDB schemas using Mongoose
-│ ├── routes/ # API route definitions
-│ ├── utils/ # Helper functions and middleware
-│ └── index.js # Server entry point
+├── api/                     # Backend (Node.js + Express)
+│   ├── controllers/         # Business logic
+│   ├── models/              # MongoDB schemas
+│   ├── routes/              # API routes
+│   ├── utils/               # Helper utilities
+│   └── index.js             # Server entry point
 │
-├── client/ # Frontend (React application)
-│ ├── src/
-│ │ ├── components/ # Reusable UI components
-│ │ ├── pages/ # Application pages
-│ │ ├── redux/ # Redux state management
-│ │ ├── firebase.js # Firebase configuration
-│ │ ├── main.jsx # React entry point
-│ │ └── index.css
-│ │
-│ ├── index.html
-│ ├── vite.config.js
-│ └── tailwind.config.js
+├── client/                  # React frontend
+│   ├── src/
+│   │   ├── components/      # Reusable UI components
+│   │   ├── pages/           # Application pages
+│   │   ├── redux/           # State management
+│   │   ├── firebase.js
+│   │   ├── main.jsx         # React entry
+│   │   └── index.css
+│   │
+│   ├── index.html
+│   ├── vite.config.js
+│   └── tailwind.config.js
 │
-├── package.json # Project dependencies
+├── package.json
 ├── package-lock.json
 ├── .gitignore
 └── README.md
+```
